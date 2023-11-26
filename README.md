@@ -8,13 +8,13 @@ This script is litteraly a python translatation of [libpmquery](https://github.c
 ### Required imports
 The following imports are necessary to use the virion library:
 ```python
-from PMQuery import PMQuery, PMQueryException;
+from PMQuery import PMQuery, PMQueryException
 ```
 
 ### API
 The querying API is a single function which grabs the data from whatever server you input. Usage is as follows:
 ```php
-query = PMQuery.query("my.server.net", 19132);
+query = PMQuery.query("my.server.net", 19132)
 ```
 The values returned will follow these values/types:
 ```python
